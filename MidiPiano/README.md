@@ -1,5 +1,5 @@
                               
-                    # MIDI Piano Christmas Light Show
+# MIDI Piano Christmas Light Show
 
 Author: Nathan Krause
 Email: nathankrause@verizon.net OR nkrause@ucsd.edu
@@ -11,8 +11,8 @@ Last Updated: 2/9/18 by Nathan Krause
   pressed and the velocity in which the note was played (force applied to key).
   The midi protocal dictates an on byte and an off byte for the corresponding
   key that was played. To learn more about the serial data being transmitted
-  readmore at:
-  http://www.indiana.edu/~emusic/etext/MIDI/chapter3_MIDI4.shtml
+  [readmore](http://www.indiana.edu/~emusic/etext/MIDI/chapter3_MIDI4.shtml)
+  about MIDI instrument communication.
 
 ## Origin and Project History:
   The project was inspired after from my neighborhood. Each year thousands of
@@ -41,8 +41,8 @@ Last Updated: 2/9/18 by Nathan Krause
       device) that is trasnmitting on channel 0. 
   
   There are two modes:
-    1)Default
-    2)User
+  * 1)Default
+  * 2)User
   "Default" is the base state in which all relays are on except for two that
   control lights illuminating the piano keys and the piano player. 
   In "user" mode the lights are initially all shut off except for the two relays
