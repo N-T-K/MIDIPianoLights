@@ -1,9 +1,9 @@
                               
 # MIDI Piano Christmas Light Show
 
-Author: Nathan Krause
-Email: nathankrause@verizon.net OR nkrause@ucsd.edu
-Last Updated: 2/9/18 by Nathan Krause
+- Author: Nathan Krause
+- Email: nathankrause@verizon.net OR nkrause@ucsd.edu
+- Last *Major* Update: 2/9/18 by Nathan Krause
 
 ## Overview:
   This simple program written for an Arduino with an open source MIDI shield
@@ -37,19 +37,20 @@ Last Updated: 2/9/18 by Nathan Krause
 
 
 ## Usage and Behaviour:
-⋅⋅⋅The program is currently written to look for a piano (or possibly and MIDI
-      device) that is trasnmitting on channel 0. 
+The program is currently written to look for a piano (or possibly and MIDI 
+device) that is trasnmitting on channel 0. 
   
-⋅⋅⋅There are two modes:
+There are two modes:
    1) Default
    2) User
-⋅⋅⋅"Default" is the base state in which all relays are on except for two that
+   
+  "Default" is the base state in which all relays are on except for two that
   control lights illuminating the piano keys and the piano player. 
   In "user" mode the lights are initially all shut off except for the two relays
   controlling lights on the piano keys and one spotlight overheard illuminating 
   the current player. 
   
-⋅⋅⋅Upon pressing a button, wired to digital pin on the arduino, the mode is
+  Upon pressing a button, wired to digital pin on the arduino, the mode is
   switched from "Default" to "User". After initial deployment it
   was discovered that most people did not understand the button system so the 
   program was modified to accept any piano key press as a trigger to switch
