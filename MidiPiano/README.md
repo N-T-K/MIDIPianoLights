@@ -10,9 +10,8 @@
   allows the arduino to interpret serial data from the shield into which Key was
   pressed and the velocity in which the note was played (force applied to key).
   The midi protocal dictates an on byte and an off byte for the corresponding
-  key that was played. To learn more about the serial data being transmitted
-  [readmore](http://www.indiana.edu/~emusic/etext/MIDI/chapter3_MIDI4.shtml)
-  about MIDI instrument communication.
+  key that was played. [Learn More](http://www.indiana.edu/~emusic/etext/MIDI/chapter3_MIDI4.shtml) 
+  about the MIDI instrument communication. 
 
 ## Origin and Project History:
   The project was inspired after from my neighborhood. Each year thousands of
