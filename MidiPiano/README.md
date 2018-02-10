@@ -1,11 +1,11 @@
                               
-                     MIDI Piano Christmas Light Show
+                    # MIDI Piano Christmas Light Show
 
 Author: Nathan Krause
 Email: nathankrause@verizon.net OR nkrause@ucsd.edu
 Last Updated: 2/9/18 by Nathan Krause
 
-#Overview:
+## Overview:
   This simple program written for an Arduino with an open source MIDI shield
   allows the arduino to interpret serial data from the shield into which Key was
   pressed and the velocity in which the note was played (force applied to key).
@@ -14,7 +14,7 @@ Last Updated: 2/9/18 by Nathan Krause
   readmore at:
   http://www.indiana.edu/~emusic/etext/MIDI/chapter3_MIDI4.shtml
 
-#Origin and Project History:
+## Origin and Project History:
   The project was inspired after from my neighborhood. Each year thousands of
   cars drive through each night of December to see the lights (yes it really is
   that crazy). And the displays were great; however, I noticed that kids would
@@ -36,7 +36,7 @@ Last Updated: 2/9/18 by Nathan Krause
 
 
 
-#Usage and Behaviour:
+## Usage and Behaviour:
   The program is currently written to look for a piano (or possibly and MIDI
       device) that is trasnmitting on channel 0. 
   
@@ -59,7 +59,7 @@ Last Updated: 2/9/18 by Nathan Krause
 
 
 
-#Key Mapping:
+## Key Mapping:
   The keyboard has 66 keys (including sharps). Instead of having 66 different
   relays every 7 keys are interrupted the same and the sharps are mapped to
   trigger the same key as their flat note (I apologize if this is musically
@@ -73,7 +73,7 @@ Last Updated: 2/9/18 by Nathan Krause
   the display and actual random players. 
 
 
-#Future Improvements:
+## Future Improvements:
   1) Pattern recognition of certain songs and auto-completing the rest or some
   other response or rewared system.
   2) PWM Dimming. Unfortuneately the current setup uses Zero-Cross Solid State
@@ -82,7 +82,7 @@ Last Updated: 2/9/18 by Nathan Krause
   3) Projection mapping
   Suggestions are welcome...
 
-#Parts Used:
+## Parts Used:
   -Arduino Mega 2560
   -(3) eight channel solid state relay board
   -MIDI piano 66 key
