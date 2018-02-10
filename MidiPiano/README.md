@@ -37,19 +37,19 @@ Last Updated: 2/9/18 by Nathan Krause
 
 
 ## Usage and Behaviour:
-  The program is currently written to look for a piano (or possibly and MIDI
+⋅⋅⋅The program is currently written to look for a piano (or possibly and MIDI
       device) that is trasnmitting on channel 0. 
   
-  There are two modes:
-  * 1)Default
-  * 2)User
-  "Default" is the base state in which all relays are on except for two that
+⋅⋅⋅There are two modes:
+   1) Default
+   2) User
+⋅⋅⋅"Default" is the base state in which all relays are on except for two that
   control lights illuminating the piano keys and the piano player. 
   In "user" mode the lights are initially all shut off except for the two relays
   controlling lights on the piano keys and one spotlight overheard illuminating 
   the current player. 
   
-  Upon pressing a button, wired to digital pin on the arduino, the mode is
+⋅⋅⋅Upon pressing a button, wired to digital pin on the arduino, the mode is
   switched from "Default" to "User". After initial deployment it
   was discovered that most people did not understand the button system so the 
   program was modified to accept any piano key press as a trigger to switch
@@ -75,20 +75,19 @@ Last Updated: 2/9/18 by Nathan Krause
 
 ## Future Improvements:
   1) Pattern recognition of certain songs and auto-completing the rest or some
-  other response or rewared system.
+     other response or rewared system.
   2) PWM Dimming. Unfortuneately the current setup uses Zero-Cross Solid State
-  Relays which makes it possible to dim. Switching the Zero-Cross for Random
-  Cross or any other MOSFET would be a viable solution.
+     Relays which makes it possible to dim. Switching the Zero-Cross for Random
+     Cross or any other MOSFET would be a viable solution.
   3) Projection mapping
-  Suggestions are welcome...
+     Suggestions are welcome...
 
 ## Parts Used:
-  -Arduino Mega 2560
-  -(3) eight channel solid state relay board
-  -MIDI piano 66 key
-  -MIDI Shield by OLIMEX
-    http://www.indiana.edu/~emusic/etext/MIDI/chapter3_MIDI4.shtml
-  -Momentary Push Button
-  -Outlets (3 prong safety proof)
+* Arduino Mega 2560
+* (3) eight channel solid state relay board
+* MIDI piano 66 key
+* [MIDI Shield by OLIMEX](http://www.indiana.edu/~emusic/etext/MIDI/chapter3_MIDI4.shtml)
+* Momentary Push Button
+* Outlets (3 prong safety proof)
 
 
