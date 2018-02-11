@@ -28,8 +28,7 @@ void setup() {
                   relay as an output
                         pinMode( relays[i], OUTPUT );
                     }
-                  Serial.begin(31250); //start serial with MIDI baudrate 31250
-                  or 38400 for debugging
+                  Serial.begin(31250); //start serial with MIDI baudrate 31250 or 38400 for debugging
                       digitalWrite( strobe, LOW );
 
                     digitalWrite( 45, HIGH );
@@ -61,10 +60,8 @@ void loop() {
                   if( state == 1 ) { //looking for a channel byte
                           if( midiByte < 128 ) { //byte should be 0-127 (min/max
                             channel)
-                                      note = midiByte; //assign the byte to our
-                            note value
-                                      state = 2; //looking for a velocity value
-                            now 
+                                      note = midiByte; //assign the byte to our note value
+                                      state = 2; //looking for a velocity value now 
                                     } else {
                                               state = 0; //wrong value startover
                                                     }
@@ -72,15 +69,12 @@ void loop() {
 
                       if( state == 2 ) { //looking for a velocity value
                               if ( midiByte < 128 ) {
-                                        velocity = midiByte; //assign byte to
-                                        velocity
-                                                  play( noteStatus, note,
-                                                      velocity ); //method call
-                                        (I'm from java as you can see) 
-                                                }
+                                        velocity = midiByte; //assign byte to velocity
+                                                  play( noteStatus, note,velocity ); //method call  (I'm from java as you can see) 
+                              }
                                     state = 0;
                                         }
-                        } //end of while
+                      } //end of if
 } //end of loop
 
 void play( int noteStatus, byte note, byte velocity ) {
