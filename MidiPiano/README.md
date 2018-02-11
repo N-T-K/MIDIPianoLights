@@ -55,7 +55,7 @@ There are two modes:
   program was modified to accept any piano key press as a trigger to switch
   modes. The program doesn't switch back to "Default" until a key has not been
   pressed for 5 seconds implying the player has walked away in which the lights
-  should come back all on.
+  should all come back on. 
 
 
 
@@ -80,13 +80,14 @@ There are two modes:
      Relays which makes it possible to dim. Switching the Zero-Cross for Random
      Cross or any other MOSFET would be a viable solution.
   3) Projection mapping
+  
      Suggestions are welcome...
 
 ## Parts Used:
 * Arduino Mega 2560
 * (3) eight channel solid state relay board
 * MIDI piano 66 key
-* [MIDI Shield by OLIMEX](http://www.indiana.edu/~emusic/etext/MIDI/chapter3_MIDI4.shtml)
+* [MIDI Shield by OLIMEX](https://www.olimex.com/Products/Duino/Shields/SHIELD-MIDI/open-source-hardware)
 * Momentary Push Button
 * Outlets (3 prong safety proof)
 
