@@ -61,7 +61,7 @@ There are two modes:
 
 ## Key Mapping:
   The keyboard has 66 keys (including sharps). Instead of having 66 different
-  relays every 7 keys are interrupted the same and the sharps are mapped to
+  relays every 7 keys are interpreted the same and the sharps are mapped to
   trigger the same key as their flat note (I apologize if this is musically
   incorrect I'm a Computer Engineering Major not a Music ;) ). For example:
   pressing key 1, which is a C, triggers the same relay as any other C on the
